@@ -12,7 +12,7 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     AppSettingsState settings = context.watch<AppSettingsState>();
-    Color background = settings.theme.color;
+    Color background = settings.theme.backgroundColor;
 
     return Container(
       decoration: BoxDecoration(color: background),
